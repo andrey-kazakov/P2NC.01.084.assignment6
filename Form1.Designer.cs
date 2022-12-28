@@ -41,24 +41,27 @@
             this.RockButton.TabIndex = 0;
             this.RockButton.Text = "Rock";
             this.RockButton.UseVisualStyleBackColor = true;
+            this.RockButton.Click += new System.EventHandler(this.RockButton_Click);
             // 
             // ScissorsButton
             // 
-            this.ScissorsButton.Location = new System.Drawing.Point(95, 13);
+            this.ScissorsButton.Location = new System.Drawing.Point(176, 13);
             this.ScissorsButton.Name = "ScissorsButton";
             this.ScissorsButton.Size = new System.Drawing.Size(75, 60);
             this.ScissorsButton.TabIndex = 1;
             this.ScissorsButton.Text = "Scissors";
             this.ScissorsButton.UseVisualStyleBackColor = true;
+            this.ScissorsButton.Click += new System.EventHandler(this.ScissorsButton_Click);
             // 
             // PaperButton
             // 
-            this.PaperButton.Location = new System.Drawing.Point(177, 13);
+            this.PaperButton.Location = new System.Drawing.Point(94, 12);
             this.PaperButton.Name = "PaperButton";
             this.PaperButton.Size = new System.Drawing.Size(75, 60);
             this.PaperButton.TabIndex = 2;
             this.PaperButton.Text = "Paper";
             this.PaperButton.UseVisualStyleBackColor = true;
+            this.PaperButton.Click += new System.EventHandler(this.PaperButton_Click);
             // 
             // Form1
             // 
